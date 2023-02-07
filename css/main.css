@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"); /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233deg, 47%, 7%);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 5%;
+}
+
+:is(a, button, input, textarea, select, details, summary):focus-visible {
+  outline: hsl(244deg, 38%, 16%) dotted 0.18rem;
+  outline-offset: 0.18rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(244deg, 38%, 16%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  max-width: 65rem;
+}
+.card__picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.card__picture img {
+  display: block;
+}
+.card__picture:before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: hsl(277deg, 64%, 61%);
+  opacity: 0.7;
+}
+.card__info {
+  padding: 2rem 0.75rem;
+}
+.card__title {
+  margin-bottom: 1rem;
+}
+.card__title span {
+  color: hsl(277deg, 64%, 61%);
+}
+.card__desc {
+  line-height: 150%;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  margin: 0 1rem 3rem;
+}
+.card__stat {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.card__stat span {
+  margin-top: 0.25rem;
+  display: block;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+@media (min-width: 48em) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .card__info {
+    width: 50%;
+    padding-inline: 4rem;
+  }
+  .card__title {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+  .card__title span {
+    color: hsl(277deg, 64%, 61%);
+  }
+  .card__desc {
+    margin-inline: 0;
+  }
+  .card__picture {
+    width: 50%;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+@media (min-width: 48em) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

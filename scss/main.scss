@@ -1,0 +1,5 @@
+@use 'base';
+//gathers all Sass tools and helpers used across the project (global variables, functions, mixins and placeholders)
+@use 'abstracts';
+//contains everything that takes part in laying out the site or application
+@use 'layout';

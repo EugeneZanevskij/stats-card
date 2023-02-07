@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+//Fonts
+$font-text: 'Inter', sans-serif;
+$font-alt: 'Lexend Deca', sans-serif;
+
+//Font-weight
+$fw-bold: 700;
+$fw-regular: 400;
+
+// Colors
+//Primary
+$color-primary-text: hsl(0, 0%, 100%);
+$color-primary-accent: hsl(277, 64%, 61%);
+$color-primary-background: hsl(233, 47%, 7%);
+$color-card-background: hsl(244, 38%, 16%);
+
+// Neutral
+$color-neutral-paragraph: hsla(0, 0%, 100%, 0.75);
+$color-neutral-stat: hsla(0, 0%, 100%, 0.6);
+
+//Line height
+$theme-line-height: 150%;
+
+// Breakpoints
+$breakpoints : (
+    "small": 36em,       //576px Large smartphones
+    "medium": 48em,       //768px Small tablets
+    "large": 62em,       //992px Tablets
+    "xlarge": 75em,       //1200px Desktops
+    "xxlarge": 87.5em,    //1400px Large desktops
+);

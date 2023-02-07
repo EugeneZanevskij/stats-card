@@ -33,8 +33,8 @@ Desktop version
 
 ### Links
 
-- Solution URL: [Stats Preview Card GitHub]()
-- Live Site URL: [Stats Preview Card Live version]()
+- Solution URL: [Stats Preview Card GitHub](https://github.com/EugeneZanevskij/stats-card)
+- Live Site URL: [Stats Preview Card Live version](https://eugenezanevskij.github.io/stats-card/)
 
 ## My process
 
